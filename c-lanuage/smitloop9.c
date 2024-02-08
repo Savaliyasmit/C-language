@@ -5,7 +5,7 @@
 
 int main()
 {
-    int  i, j, k;
+    int  i, j, k=1;
 
 
     //k = 1;
@@ -13,7 +13,7 @@ int main()
     {
         for(j=1; j<=5; j++)
         {
-            printf("\t%d\t ", k +=1);
+            printf("\t%d\t ", k++);
         }
 
         printf("\n");

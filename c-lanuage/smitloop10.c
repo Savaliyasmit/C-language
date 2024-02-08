@@ -2,23 +2,27 @@
 
 
 #include <stdio.h>
-#include<conio.h>
-void main()
-{
-    int count = 0;
-    for (int i = 0; i < 5; i++) 
-    {
 
-        for (int j = 0; j < 5; j++) 
-        {
-            printf("%c ", 65 + count);
-            
-            count = count + 1;
+int main()
+{
+    int  i, j, k = 65;
+
+
+
+    for(i=0; i<=5; i++)
+    {
+        for(j=0; j<=5; j++)
+        {   
+            if(k == 91){
+                 break;
+              }
+              else{
+                    printf(" %c ", k++);
+              }
         }
 
         printf("\n");
     }
 
-
-    
+    return 0;
 }
